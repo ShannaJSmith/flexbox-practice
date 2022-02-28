@@ -1,12 +1,18 @@
 import React from 'react';
-import { MdCatchingPokemon } from 'react-icons/md';
+import { MdOutlineCatchingPokemon } from 'react-icons/md';
 
 const Content = () => {
   return (
     <section className="boxes">
       <div className="content-container">
         <div className="box">
-          <h2>Pokemon</h2>
+          <h2>
+            <MdOutlineCatchingPokemon
+              className="icon"
+              style={{ color: 'red' }}
+            />
+            Pokemon
+          </h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             veritatis ea debitis aspernatur tempore illo quo deserunt quidem
@@ -14,7 +20,13 @@ const Content = () => {
           </p>
         </div>
         <div className="box">
-          <h2>Description</h2>
+          <h2>
+            <MdOutlineCatchingPokemon
+              className="icon"
+              style={{ color: 'red' }}
+            />
+            Description
+          </h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             veritatis ea debitis aspernatur tempore illo quo deserunt quidem
@@ -22,7 +34,13 @@ const Content = () => {
           </p>
         </div>
         <div className="box">
-          <h2>Games</h2>
+          <h2>
+            <MdOutlineCatchingPokemon
+              className="icon"
+              style={{ color: 'red' }}
+            />
+            Games
+          </h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             veritatis ea debitis aspernatur tempore illo quo deserunt quidem
