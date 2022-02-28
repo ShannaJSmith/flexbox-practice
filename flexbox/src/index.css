@@ -32,7 +32,8 @@ body {
   align-items: center;
 
   /* width: 100px; */
-  flex-basis: 300px;
+  /* flex-basis: 300px; */
+  flex: 1;
   height: 100px;
   background: hotpink;
   margin: 10px;
