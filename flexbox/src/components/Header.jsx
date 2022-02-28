@@ -4,7 +4,7 @@ import vaporeon from '../images/vaporeon.png';
 const Header = () => {
   return (
     <heade className="header">
-      <div className="header-container">
+      <div className="container">
         <div>
           <h1>Flexbox Sample Styling</h1>
           <p>
