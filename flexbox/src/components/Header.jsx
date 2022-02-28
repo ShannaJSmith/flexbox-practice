@@ -1,4 +1,5 @@
 import React from 'react';
+import vaporeon from '../images/vaporeon.png';
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
             doloremque distinctio eos nihil, ducimus dolorum vel.
           </p>
         </div>
-        <img src="animeDude.svg" alt="animeDude" />
+        <img src={vaporeon} alt="vaporeon" />
       </div>
     </heade>
   );
