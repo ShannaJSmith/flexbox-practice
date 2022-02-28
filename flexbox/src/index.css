@@ -10,18 +10,26 @@ body {
 }
 
 .flex-container {
-  height: 400px;
+  /* height: 500px; */
   display: flex;
+  /* flex-direction: column; */
   background: grey;
-  justify-content: space-around;
+  /* jc always uses main axis. for rows justify-content positions the children */
+  /* justify-content: flex-end; */
   /* justify-content: space-between; */
   /* justify-content: space-evenly; */
-  align-items: center;
+  /* al always uses cross axis. for columns align-items positions the children */
+  /* align-items: flex-end; */
   /* align-items: flex-start;
   align-items: flex-end; */
 }
 
 .item {
+  /* to center a div */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 100px;
   height: 100px;
   background: hotpink;
@@ -30,7 +38,7 @@ body {
 }
 
 /* pseudo selector. could also label each item 1,2,3 */
-.item:nth-of-type(1) {
+/* .item:nth-of-type(1) {
   align-self: flex-start;
 }
 
@@ -40,4 +48,4 @@ body {
 
 .item:nth-of-type(3) {
   align-self: flex-end;
-}
+} */
