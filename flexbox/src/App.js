@@ -1,11 +1,5 @@
 function App() {
-  return (
-    <div className="flex-container">
-      <div className="item">Item A</div>
-      <div className="item">Item B</div>
-      <div className="item">Item C</div>
-    </div>
-  );
+  return <div className="flex-container">Project</div>;
 }
 
 export default App;
