@@ -51,5 +51,15 @@ ul {
 }
 
 .navbar .container {
+  height: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
 }
