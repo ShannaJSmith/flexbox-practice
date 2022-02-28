@@ -3,7 +3,7 @@ import { MdOutlineCatchingPokemon } from 'react-icons/md';
 
 const Content = () => {
   return (
-    <section className="boxes">
+    <section className="content">
       <div className="container">
         <div className="box">
           <h2>

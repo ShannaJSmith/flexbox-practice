@@ -89,3 +89,36 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
+
+.content .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background: orange;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px green;
+  padding: 15px 20px;
+}
+
+.box .icon {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .content .container {
+    /* or could change to flex-direction column */
+    display: block;
+    text-align: center;
+  }
+}
