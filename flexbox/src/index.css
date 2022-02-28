@@ -19,9 +19,37 @@ img {
   height: 300px;
 }
 
+/* remove bullets on all unordered lists */
+ul {
+  list-style-type: none;
+}
+
 .container {
   max-width: 1100px;
   /* center */
   margin: 0 auto;
   padding: 0 30px;
+}
+
+.navbar {
+  background: gray;
+  color: white;
+  height: 60px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/* make a-tag links white */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar .container {
+  display: flex;
 }
