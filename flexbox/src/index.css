@@ -14,11 +14,6 @@ body {
   background: pink;
 }
 
-img {
-  object-fit: cover;
-  height: 300px;
-}
-
 /* remove bullets on all unordered lists */
 ul {
   list-style-type: none;
@@ -70,4 +65,27 @@ ul {
 /* space the navbar links from each other */
 .navbar ul li {
   margin-left: 20px;
+}
+
+.header {
+  background: hotpink;
+  color: white;
+  min-height: 400px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header img {
+  max-width: 250px;
+}
+
+/* text-div and img are the only two children in .header .container */
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

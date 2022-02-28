@@ -3,7 +3,7 @@ import vaporeon from '../images/vaporeon.png';
 
 const Header = () => {
   return (
-    <heade className="header">
+    <header className="header">
       <div className="container">
         <div>
           <h1>Flexbox Sample Styling</h1>
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <img src={vaporeon} alt="vaporeon" />
       </div>
-    </heade>
+    </header>
   );
 };
 
