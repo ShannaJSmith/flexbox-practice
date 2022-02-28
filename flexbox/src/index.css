@@ -50,10 +50,16 @@ ul {
   font-size: 18px;
 }
 
+.navbar a:hover {
+  color: pink;
+}
+
 .navbar .container {
   height: 100%;
   display: flex;
+  /* to position logo and a-tag children elements on opposite sides  */
   justify-content: space-between;
+  /* center the children elements vertically/cross-axis */
   align-items: center;
 }
 
@@ -61,5 +67,7 @@ ul {
   display: flex;
 }
 
+/* space the navbar links from each other */
 .navbar ul li {
+  margin-left: 20px;
 }
