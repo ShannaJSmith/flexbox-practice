@@ -1,4 +1,5 @@
 import React from 'react';
+import animeDude from '/animeDude.svg';
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
             doloremque distinctio eos nihil, ducimus dolorum vel.
           </p>
         </div>
-        <img src="animeDude.svg" alt="animeDude" />
+        <img src={animeDude} alt="animeDude" />
       </div>
     </heade>
   );
