@@ -6,6 +6,7 @@
   border: 1px solid black;
 }
 .content-two .container > * {
+  /* '>' grabs the direct child of an element */
   /* flex: 0 0 50%; */
   /* flex: 1 1 160px; */
   flex: 1 1 300px;
