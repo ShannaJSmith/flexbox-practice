@@ -1,9 +1,23 @@
 .content-two .container {
+  /* width: 500px; */
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
-  flex: 1;
+  border: 1px solid black;
 }
+.content-two .container > * {
+  /* flex: 0 0 50%; */
+  /* flex: 1 1 160px; */
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+/* Flex
+This is the shorthand for flex-grow, flex-shrink and flex-basis combined. 
+The second and third parameters (flex-shrink and flex-basis) are optional. 
+The default is 0 1 auto, but if you set it with a single number value, like flex: 5;, 
+that changes the flex-basis to 0%, 
+so it’s like setting flex-grow: 5; flex-shrink: 1; flex-basis: 0%;. */
 
 .stuff {
   color: green;
@@ -11,4 +25,21 @@
   border: 1px solid black;
   padding: 50px;
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* pseudo selector. */
+.stuff:nth-of-type(1) {
+  /* align-self: flex-start; */
+  flex-basis: 10%;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+
+.stuff:nth-of-type(2) {
+  /* align-self: center; */
+  /* order: 3; */
+  /* flex-basis: 100px; */
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
 }
